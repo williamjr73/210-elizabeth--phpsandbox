@@ -1,0 +1,7 @@
+{
+  "name": "quiicks/210-elizabeth",
+  "description": "210 Elizabeth - Coming Soon",
+  "require": {
+    "phpmailer/phpmailer": "^6.6"
+  }
+}

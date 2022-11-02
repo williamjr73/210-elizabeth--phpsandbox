@@ -1,0 +1,148 @@
+.wrapblock .block2 {
+  background: #fff;
+}
+
+.wrapblock .block3 {
+  background-color: #000;
+  background-image: url(../images/form-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapblock .block2 {
+  background-image: url(../images/footer-image.jpg);
+  background-position: bottom center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wrapblock .wrap p {
+  color: #000;
+}
+
+.wrapblock .block2 {
+  text-align: center;
+}
+
+.wrapblock .block2 .cell {
+  vertical-align: top;
+}
+
+.wrapblock .block2 .cell .content {
+  padding: 40px 60px 20px;
+  background: #fff;
+}
+
+.wrapblock .wrap p {
+  font-size: 18px;
+}
+
+.wrapblock .wrap form input[type="submit"],
+.wrapblock .wrap form button {
+  width: 150px;
+  background-image: none !important;
+  background-color: #8b8b8b !important;
+  padding: 8px !important;
+  color: #fff !important;
+  border-radius: 5px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.wrapblock .block3 .wrap .cell {
+  background: rgba(0,0,0,0.2);
+}
+
+.wrapblock .block3 .wrap {
+  margin: 25px 80px;
+  text-align: center;
+  padding: 0;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid #ccc;
+}
+
+.wrapblock .wrap form input[type="text"],
+.wrapblock .wrap form input[type="email"],
+.wrapblock .wrap form input[type="number"],
+.wrapblock .wrap form input[type="tel"],
+.wrapblock .wrap form select,
+.wrapblock .wrap form textarea,
+.wrapblock .wrap form #broker {
+  width: 45% !important;
+  max-width: 400px;
+  background: #fff !important;
+}
+
+.wrapblock .wrap form #broker {
+  background: none !important;
+  display: inline-block;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+form#contact-form label.left-label {
+  position: absolute;
+  width: 25%;
+  left: 0;
+  text-align: right;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.mobile {
+  display: none;
+}
+
+.wrapblock .line {
+    margin: 25px auto;
+}
+
+@media only screen and (max-width: 1140px) {
+  .wrapblock .block3 .wrap {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .mobile {
+    display: initial;
+  }
+  /* .wrapblock {
+    background-image: url(../images/footer-image.jpg);
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
+  } */
+}
+
+@media only screen and (max-width: 600px) {
+  /* .wrapblock {
+    padding-bottom: 300px;
+  } */
+}
+
+@media only screen and (max-width: 480px) {
+  /* .wrapblock {
+    padding-bottom: 225px;
+  } */
+
+  .wrapblock .block3 .wrap {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+  .wrapinput label {
+    font-size: 13px;
+  }
+}
